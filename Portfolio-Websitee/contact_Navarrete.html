@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jannelle Marie</title>
+  <!-- Link for Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- Link for the Page's Icon -->
+  <link rel="icon" href="/images/favicon.png" type="image/png">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome (for icons) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <!-- Link for AOS animation -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="/css files/contact.css">
+</head>
+
+<body>
+  <!-- NAVIGATION MENU -->
+  <header>
+    <nav>
+      <ul class="anim2 nav_links">
+        <li class="nav-left" style="font-size: 28px; font-weight: bold; cursor: pointer;"><a
+            href="/html files/Introductionpage_Navarrete.html" title="Click to homepage."><span
+              class="span">e</span>Portfolio</a></li>
+        <div class="nav-center">
+          <li class="dropdown-toggle link">
+            <a style="cursor: pointer;" id="aboutToggle">About Me</a>
+            <ul class="dropdown" id="aboutDropdown">
+              <li class="link"><a href="/html files/Aboutme_Somera.html">About Me</a></li>
+              <li class="link"><a href="/bootstrap files/goals_Cerdena.html">Goals</a></li>
+              <li class="link"><a href="/html files/Educ&Exp_Cerdena.html">Education & Experiences</a></li>
+              <li class="link"><a href="/bootstrap files/skills_Dolormente.html">Skills & Tools</a></li>
+            </ul>
+          </li>
+          <li class="link"><a href="/html files/Projects_Dolormente.html">Projects</a></li>
+          <li class="link"><a href="/bootstrap files/services_Somera.html">Services</a></li>
+          <li class="link"><a href="/bootstrap files/testimonial_Fraga.html">Testimonials</a></li>
+        </div>
+        <div class="nav-right">
+          <li class="link"><a href="/html files/Blog_Fraga.html">Blogs</a></li>
+          <li class="link"><a class="cta" href="/bootstrap files/contact_Navarrete.html"><button>Contact</button></a>
+          </li>
+        </div>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <section class="contact-section py-5" style="background-color: #e8f2ff;">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <!-- CONTACT TEXT -->
+        <div class="col-lg-5 mb-4" data-aos="fade-up">
+          <h1 class="fw-bold" style="color: #263A5A;">Let’s Work Together</h1>
+          <p class="lead text-muted">Have a question or want to collaborate? Feel free to reach out!</p>
+          <p><i class="bi bi-envelope-fill me-2 text-primary"></i> janellecruz@email.com</p>
+          <p><i class="bi bi-phone-fill me-2 text-primary"></i> +63 900 000 0000</p>
+          <div class="mt-3">
+            <a href="https://facebook.com/" target="_blank" class="me-3 text-dark fs-4"><i
+                class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com/" target="_blank" class="me-3 text-dark fs-4"><i
+                class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com/" target="_blank" class="text-dark fs-4"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+
+        <!-- CONTACT FORM -->
+        <div class="col-lg-6">
+          <div class="p-4 bg-white shadow rounded" data-aos="fade-left" data-aos-delay="100">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="your@email.com">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Write something..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-warning rounded-pill px-4 py-2 fw-bold" style="color: white;">Send
+                Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="copyright">Copyright © 2025 by Janelle Marie Cruz. All rights Reserved.</footer>
+
+  <script src="/myscripts.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <!-- Script for Animation Delay -->
+  <script>
+    AOS.init({
+      duration: 850,
+      once: true
+    }) 
+  </script>
+</body>
+
+</html>
